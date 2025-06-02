@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import altair as alt
 import pandas as pd
+from datetime import time, datetime
 
 st.header('st.button')
 
@@ -40,3 +41,5 @@ c = alt.Chart(df2).mark_circle().encode(
 )
 
 st.write(c)
+
+st.header('st.slider')
