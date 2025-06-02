@@ -107,3 +107,18 @@ options = st.multiselect(
 
 st.write('You selected:', options)
 
+# Check box
+st.header('st.checkbox')
+
+st.write('What would you like to order?')
+
+icecream = st.checkbox("Ice cream")
+coffee = st.checkbox('coffee')
+cola = st.checkbox('cola')
+
+if icecream:
+    st.write("Great! Here's some more :icecream: ")
+if coffee:
+    st.write("Okay, here's some coffe :coffee: ")
+if cola:
+    st.write("Here you go :juice: ")
