@@ -121,4 +121,4 @@ if icecream:
 if coffee:
     st.write("Okay, here's some coffe :coffee: ")
 if cola:
-    st.write("Here you go :juice: ")
+    st.write("Here you go🥤 ")
