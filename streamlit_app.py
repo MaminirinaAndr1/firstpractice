@@ -87,3 +87,11 @@ chart_data = pd.DataFrame(np.random.randn(20, 3),
                           )
 
 st.line_chart(chart_data)
+
+# Select Box
+st.header('st.selectbox')
+
+option = st.selectbox(What is your favorite color?,
+                      ('Blue', 'Red', 'Green'))
+
+st.write('Your favorite color is ', option)
